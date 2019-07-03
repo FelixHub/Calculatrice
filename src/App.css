@@ -1,0 +1,49 @@
+
+h1 {
+  color : rgb(255, 255, 255);
+  font-family: Helvetica, sans-serif;
+  font-style : italic;
+}
+body {
+  background-color : rgb(238, 67, 138);
+
+}
+
+button{
+  background-color : rgb(30, 214, 174);
+  padding: 0;
+  border : none;
+  height: 50px;
+  width: 50px;
+  border : 5px rgb(30, 214, 174) outset;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color : rgb(252, 252, 252);
+}
+button:active {
+  border : 5px rgb(30, 214, 174) inset;
+}
+div.calculator {
+  text-align: center;
+}
+
+.result {
+  color : white;
+  background-color : rgb(30, 214, 174);
+  border : 5px  rgb(30, 214, 174) outset;
+  width : 190px;
+  height : 40px;
+  display: inline-block;
+  font-size : 20px;
+  text-align: center;
+  position : relative;
+  top: 50%;
+}
+
+p {
+  text-align: center;
+  position : relative;
+  transform: translateY(-50%);
+  font-family: Helvetica, sans-serif;
+  font-style : bold;
+}
